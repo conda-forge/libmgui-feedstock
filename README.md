@@ -3,13 +3,13 @@ About libmgui-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libmgui-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/mhekkel/libmgui
+Home: https://forge.hekkelman.net/maarten/libmgui
 
 Package license: BSD-2-Clause
 
 Summary: Class library for creating gui applications
 
-Development: https://github.com/mhekkel/libmgui
+Development: https://forge.hekkelman.net/maarten/libmgui
 
 This library provides a cross platform application framework.
 
