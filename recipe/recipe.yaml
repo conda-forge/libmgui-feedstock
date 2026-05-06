@@ -6,8 +6,8 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://github.com/mhekkel/libmgui/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 9c9e49c8c42d1448c8a798d0498c21e1a13fe62b08ba48283601a4b924601ec3
+  url: https://forge.hekkelman.net/maarten/libmgui/archive/v${{ version }}.tar.gz
+  sha256: 153f14a4238b728c7edaae0f8d83987e69f4597c3691e4207dc4ab9cde6e5fe6
 
 build:
   number: 2
@@ -55,8 +55,8 @@ tests:
         - mgui
 
 about:
-  homepage: https://github.com/mhekkel/libmgui
-  repository: https://github.com/mhekkel/libmgui
+  homepage: https://forge.hekkelman.net/maarten/libmgui
+  repository: https://forge.hekkelman.net/maarten/libmgui
   license: BSD-2-Clause
   license_file: LICENSE
   summary: "Class library for creating gui applications"
