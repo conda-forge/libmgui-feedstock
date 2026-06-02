@@ -18,6 +18,8 @@ freetype:
 - '2'
 glib:
 - '2'
+liblzma_devel:
+- '5'
 target_platform:
 - linux-64
 zlib:
