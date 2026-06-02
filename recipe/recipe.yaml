@@ -1,5 +1,5 @@
 context:
-  version: "2.0.0"
+  version: "2.0.1"
 
 package:
   name: libmgui
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://forge.hekkelman.net/maarten/libmgui/archive/v${{ version }}.tar.gz
-  sha256: 153f14a4238b728c7edaae0f8d83987e69f4597c3691e4207dc4ab9cde6e5fe6
+  sha256: 908a4c0a32d1b1452e338ef32085019624f67be766aed42deb9d9d7877bfda7d
 
 build:
-  number: 2
+  number: 0
   skip:
     # Remove windows in the future when we have windows support
     - osx
