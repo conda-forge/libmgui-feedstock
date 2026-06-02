@@ -27,16 +27,15 @@ requirements:
   build:
     - ${{ compiler("cxx") }}
     - ${{ stdlib("c") }}
+    - ${{ "make" if linux }}
     - cmake
     - pkg-config
-    - if: linux
-      then:
-        - make
   host:
     - expat
     - freetype
     - glib
     - libgxrio
+    - Liblzma-devel
     - maartens_resource_compiler
     - zeem
     - if: linux
