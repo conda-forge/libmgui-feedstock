@@ -35,7 +35,7 @@ requirements:
     - freetype
     - glib
     - libgxrio
-    - Liblzma-devel
+    - liblzma-devel
     - maartens_resource_compiler
     - zeem
     - if: linux
